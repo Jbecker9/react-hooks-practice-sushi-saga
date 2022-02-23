@@ -1,9 +1,13 @@
 import React from "react";
 
-function MoreButton() {
+function MoreButton({ getNextFour }) {
+
+  function clickFour(){
+    getNextFour()
+  }
 
 
-  return <button onClick={null}>More sushi!</button>;
+  return <button onClick={clickFour}>More sushi!</button>;
 }
 
 export default MoreButton;
