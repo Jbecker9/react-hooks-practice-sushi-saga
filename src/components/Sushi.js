@@ -4,7 +4,7 @@ function Sushi({ sushiMap }) {
 
   return (
     <div className="sushi">
-      <div className="plate" onClick={/* Give me a callback! */ null}>
+      <div className="plate" onClick={}>
         {/* Tell me if this sushi has been eaten! */}
         {false ? null : (
           <img
